@@ -1,6 +1,6 @@
 <h2>💬 Sobre o projeto</h2>
 
-Projeto e implementação de um processador de 16 bits utilizando o software simulador <a href="https://www.digitalelectronicsdeeds.com/deeds.html" target="_blank">Deeds</a>. Projeto final da disciplina Laboratório de Circuitos Lógicos da Universidade de Brasília.
+Projeto e implementação de um processador de 16 bits utilizando o software simulador <a href="https://www.digitalelectronicsdeeds.com/deeds.html" target="_blank">Deeds</a>. Projeto final da disciplina Laboratório de Circuitos Lógicos da <a href="https://www.unb.br/" target="_blank">Universidade de Brasília</a>.
 
 <h2>🛠 Como utilizar</h2>
 
@@ -15,6 +15,8 @@ Cada arquivo na pasta principal é um componente do processador, usado para dimi
 ### Carregar um programa
 
 Para carregar um programa tendo os arquivos de memória, basta abrir o bloco `memoria.cbe` e clicar duas vezes sobre a memória, ir em `Load` e selecionar o respectivo arquivo (`mem1.drs` para a primeira e `mem2.drs` para a segunda). Após isso, no arquivo principal do processador, é necessário remover o bloco de memória (nomeado por ROM) e adicioná-lo novamente (`Circuit > Components > Custom Components > Circuit Block Element (CBE)` e selecionar `memoria.cbe`, adicionando exatamente na mesma posição que estava anteriormente).
+
+Os arquivos `mem1.drs` e `mem2.drs` contém um exemplo de um programa que conta de -16 à 16, já compilado.
 
 ### Compilador
 
