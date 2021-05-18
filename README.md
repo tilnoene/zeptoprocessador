@@ -12,6 +12,10 @@ O arquivo principal é o `processador.pbs`, que interliga todos os outros compon
 
 Cada arquivo na pasta principal é um componente do processador, usado para diminuir o circuito e facilitar a implementação. Cada componente pode ser testado avulsamente com seu respecitvo arquivo na pasta `teste_bloco_de_circuito`.
 
+### Carregar um programa
+
+Para carregar um programa tendo os arquivos de memória, basta abrir o bloco `memoria.cbe` e clicar duas vezes sobre a memória, ir em `Load` e selecionar o respectivo arquivo (`mem1.drs` para a primeira e `mem2.drs` para a segunda). Após isso, no arquivo principal do processador, é necessário remover o bloco de memória (nomeado por ROM) e adicioná-lo novamente (`Circuit > Components > Custom Components > Circuit Block Element (CBE)` e selecionar `memoria.cbe`, adicionando exatamente na mesma posição que estava anteriormente).
+
 ### Compilador
 
 Compila as instruções em Assembly para as duas memórias utilizadas pelo processador.
