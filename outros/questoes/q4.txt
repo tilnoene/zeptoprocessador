@@ -1,7 +1,7 @@
 # multiplicação de dois números com sinal
 
 addi R1,R0,0,0 # resultado (X*Y)
-addi R2,R0,R0,-5 # X
+addi R2,R0,R0,5 # X
 addi R3,R0,R0,-3 # Y
 addi R4,R0,R0,0 # contador
 addi R5,R2,R0,0 # abs(X)

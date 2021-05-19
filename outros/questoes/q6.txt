@@ -1,8 +1,8 @@
 # resto da divisão de dois números sem sinal
 
 addi R1,R0,0,0 # resultado (X%Y)
-addi R2,R0,R0,1 # X
-addi R3,R0,R0,2 # Y
+addi R2,R0,R0,10 # X
+addi R3,R0,R0,3 # Y
 
 bles R2,R0,3 # R2 <= 0 ? Fim : Loop
 subi R2,R2,R3,0 # X -= Y
