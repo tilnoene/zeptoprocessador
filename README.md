@@ -2,6 +2,8 @@
 
 Projeto e implementação de um processador de 16 bits utilizando o software simulador <a href="https://www.digitalelectronicsdeeds.com/deeds.html" target="_blank">Deeds</a>. Projeto final da disciplina Laboratório de Circuitos Lógicos da <a href="https://www.unb.br/" target="_blank">Universidade de Brasília</a>.
 
+![Zeptoprocessador](./assets/zeptoprocessador.png)
+
 <h2>🛠 Como utilizar</h2>
 
 ### Processador
