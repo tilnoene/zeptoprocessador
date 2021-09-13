@@ -1,6 +1,6 @@
-assembly_compiler
+assembly_montador
 1. No arquivo input.txt escreva o código em Assembly
-2. Execute o arquivo assembly_compiler.py
+2. Execute o arquivo assembly_montador.py
 3. Nos arquivos mem1.drs e mem2.drs vão estar os dois arquivos para carregar nas memórias
 
 PS: O primeiro contém os imediatos e o segundo contém a instrução em si
@@ -9,9 +9,9 @@ OBS:
 - Não escreva espaços após as vírgulas
 - Comentários apenas no final da linha de uma instrução
 
-assembly_simulator (simula as instruções do processador)
+assembly_simulador (simula as instruções do processador)
 1. No arquivo input.txt escreva o código em Assembly
-2. Execute o arquivo assembly_simulator.py
+2. Execute o arquivo assembly_simulador.py
 3. No terminal aparecerá o valor do registrador PC na primeira linha e os valores dos outros 16 registradores na linha seguinte
 
-by vito (tilnoene) :)
+by Victor Manuel (tilnoene)
